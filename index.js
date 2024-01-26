@@ -1,5 +1,5 @@
 function calcularNivel(vitorias, derrotas) {
-    const saldoVitorias = 100 - 20; 
+    const saldoVitorias = 20- 5; 
     let nivel;
 
     if (vitorias < 10) {
@@ -22,5 +22,5 @@ function calcularNivel(vitorias, derrotas) {
 }
 
 // Exemplo de uso:
-calcularNivel(25, 5);
+calcularNivel(20, 5);
 
